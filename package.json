@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-firebase-example",
+  "name": "nuxt-ssr-qiita-20191024",
   "version": "1.0.0",
   "description": "Nuxt.js project",
   "author": "Takuma HANATANI<mail@potato4d.me>",
@@ -13,16 +13,9 @@
     "deploy": "make firebase-deploy"
   },
   "dependencies": {
-    "autolinker": "^1.6.0",
-    "bulma": "0.6.1",
-    "core-js": "3",
-    "dayjs": "^1.8.2",
     "firebase": "^6.2.3",
     "firebase-tools": "^6.5.0",
-    "htmlspecialchars": "^1.0.5",
-    "lodash.clonedeep": "^4.5.0",
     "nuxt": "^2.8.1",
-    "uuid": "^3.3.2",
     "firebase-admin": "^6.0.0",
     "firebase-functions": "^3.0.1"
   },
