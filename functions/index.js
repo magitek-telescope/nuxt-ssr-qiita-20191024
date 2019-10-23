@@ -3,12 +3,6 @@ const { Nuxt } = require('nuxt')
 const express = require('express')
 const app = express()
 
-const envs = functions.config().environment
-
-Object.entries(envs).forEach((k, v) => {
-  process.env[`${k}`.toUpperCase()] = v
-})
-
 const config = {
   dev: false,
   buildDir: '.nuxt',
